@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sundayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/sunday_title_description"
+        android:text="@string/sunday_title_text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintBottom_toTopOf="@+id/mondayTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mondayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/monday_title_description"
+        android:text="@string/monday_title_text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintBottom_toTopOf="@+id/tuesdayTitle"
+        app:layout_constraintStart_toStartOf="@+id/sundayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/sundayTitle" />
+
+    <TextView
+        android:id="@+id/tuesdayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/tuesday_title_description"
+        android:text="@string/tuesday_title_text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintBottom_toTopOf="@+id/wednesdayTitle"
+        app:layout_constraintStart_toStartOf="@+id/mondayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/mondayTitle" />
+
+    <TextView
+        android:id="@+id/wednesdayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/wednesday_title_description"
+        android:text="@string/wednesday_title_text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintBottom_toTopOf="@+id/thursdayTitle"
+        app:layout_constraintStart_toStartOf="@+id/tuesdayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tuesdayTitle" />
+
+    <TextView
+        android:id="@+id/thursdayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/thursday_title_description"
+        android:text="@string/thursday_title_text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintBottom_toTopOf="@+id/fridayTitle"
+        app:layout_constraintStart_toStartOf="@+id/wednesdayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/wednesdayTitle" />
+
+    <TextView
+        android:id="@+id/fridayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/friday_title_description"
+        android:text="@string/friday_title_text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintBottom_toTopOf="@+id/saturdayTitle"
+        app:layout_constraintStart_toStartOf="@+id/thursdayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/thursdayTitle" />
+
+    <TextView
+        android:id="@+id/saturdayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:contentDescription="@string/saturday_title_description"
+        android:text="@string/saturday_title_text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/fridayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/fridayTitle" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/sunday_default_spinner"
+        app:layout_constraintStart_toStartOf="@+id/sundayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/sundayTitle" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/monday_default_spinner"
+        app:layout_constraintStart_toStartOf="@+id/mondayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/mondayTitle" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/tuesday_default_spinner"
+        app:layout_constraintStart_toStartOf="@+id/tuesdayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tuesdayTitle" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/wednesday_default_spinner"
+        app:layout_constraintStart_toStartOf="@+id/wednesdayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/wednesdayTitle" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/thursday_default_spinner"
+        app:layout_constraintStart_toStartOf="@+id/thursdayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/thursdayTitle" />
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/friday_default_spinner"
+        app:layout_constraintStart_toStartOf="@+id/fridayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/fridayTitle" />
+
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/saturday_default_spinner"
+        app:layout_constraintStart_toStartOf="@+id/saturdayTitle"
+        app:layout_constraintTop_toBottomOf="@+id/saturdayTitle" />
+
+</android.support.constraint.ConstraintLayout>

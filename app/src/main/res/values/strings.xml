@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">mealPlanr</string>
+    <string name="sunday_title_text">Sunday</string>
+    <string name="monday_title_text">Monday</string>
+    <string name="tuesday_title_text">Tuesday</string>
+    <string name="wednesday_title_text">Wednesday</string>
+    <string name="thursday_title_text">Thursday</string>
+    <string name="friday_title_text">Friday</string>
+    <string name="saturday_title_text">Saturday</string>
+
+    <string name="sunday_title_description">Sunday title</string>
+    <string name="monday_title_description">Monday title</string>
+    <string name="tuesday_title_description">Tuesday title</string>
+    <string name="wednesday_title_description">Wednesday title</string>
+    <string name="thursday_title_description">Thursday title</string>
+    <string name="friday_title_description">Friday title</string>
+    <string name="saturday_title_description">Saturday title</string>
+
+    <string name="meal_default_text">No meal selected yet!</string>
+    <string name="meal_default_description">Edit to select a meal for this day.</string>
+
+    <string-array name="sunday_default_spinner">
+        <item>No meals found!</item>
+    </string-array>
+
+    <string-array name="monday_default_spinner">
+        <item>No meals found!</item>
+    </string-array>
+
+    <string-array name="tuesday_default_spinner">
+        <item>No meals found!</item>
+    </string-array>
+
+    <string-array name="wednesday_default_spinner">
+        <item>No meals found!</item>
+    </string-array>
+
+    <string-array name="thursday_default_spinner">
+        <item>No meals found!</item>
+    </string-array>
+
+    <string-array name="friday_default_spinner">
+        <item>No meals found!</item>
+    </string-array>
+
+    <string-array name="saturday_default_spinner">
+        <item>No meals found!</item>
+    </string-array>
+</resources>
