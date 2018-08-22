@@ -87,7 +87,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fridayTitle" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/sunSpinner"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/sundayTitle" />
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/monSpinner"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -107,7 +107,7 @@
         app:layout_constraintTop_toBottomOf="@+id/mondayTitle" />
 
     <Spinner
-        android:id="@+id/spinner4"
+        android:id="@+id/tueSpinner"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -117,7 +117,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tuesdayTitle" />
 
     <Spinner
-        android:id="@+id/spinner5"
+        android:id="@+id/wedSpinner"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -127,7 +127,7 @@
         app:layout_constraintTop_toBottomOf="@+id/wednesdayTitle" />
 
     <Spinner
-        android:id="@+id/spinner6"
+        android:id="@+id/thuSpinner"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -137,7 +137,7 @@
         app:layout_constraintTop_toBottomOf="@+id/thursdayTitle" />
 
     <Spinner
-        android:id="@+id/spinner7"
+        android:id="@+id/friSpinner"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -147,7 +147,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fridayTitle" />
 
     <Spinner
-        android:id="@+id/spinner8"
+        android:id="@+id/satSpinner"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
