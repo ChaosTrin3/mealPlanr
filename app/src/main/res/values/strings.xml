@@ -46,4 +46,5 @@
     <string-array name="saturday_default_spinner">
         <item>No meals found!</item>
     </string-array>
+
 </resources>
