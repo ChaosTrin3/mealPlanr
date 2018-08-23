@@ -19,8 +19,38 @@
     <string name="new_meal_btn_text">New Meal</string>
     <string name="new_meal_btn_description">Starts an Activity to generate a new meal.</string>
 
+    <string name="add_ingredient_btn_text">Add</string>
+    <string name="add_ingredient_btn_description">Add the ingredient to the recipe.</string>
+
     <string name="meal_default_text">No meal selected yet!</string>
     <string name="meal_default_description">Edit to select a meal for this day.</string>
+
+    <string name="new_meal_name_hint">Enter a name for your meal!</string>
+    <string name="add_ingredient_hint">Add ingredients!</string>
+    
+    <string name="qty_tv_text">QTY</string>
+    <string name="qty_tv_description">QTY label</string>
+
+    <string name="unit_tv_text">Units</string>
+    <string name="unit_tv_description">Helps with the scaling of the qty.</string>
+
+    <string-array name="qty_option_spinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="units_option_spinner">
+        <item>Items</item>
+        <item>Lbs</item>
+    </string-array>
 
     <string-array name="sunday_default_spinner">
         <item>No meals found!</item>

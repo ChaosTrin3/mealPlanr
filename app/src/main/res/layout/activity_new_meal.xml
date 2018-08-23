@@ -6,4 +6,97 @@
     android:layout_height="match_parent"
     tools:context=".NewMealActivity">
 
+    <EditText
+        android:id="@+id/newMealName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/new_meal_name_hint"
+        android:inputType="text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/newIngredient"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/add_ingredient_hint"
+        android:inputType="text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        app:layout_constraintStart_toStartOf="@+id/newMealName"
+        app:layout_constraintTop_toBottomOf="@+id/newMealName" />
+
+    <TextView
+        android:id="@+id/qtyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qty_tv_text"
+        app:layout_constraintBottom_toTopOf="@+id/qtySpinner"
+        app:layout_constraintStart_toStartOf="@+id/qtySpinner" />
+
+    <Spinner
+        android:id="@+id/qtySpinner"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/qty_option_spinner"
+        app:layout_constraintBottom_toBottomOf="@+id/newIngredient"
+        app:layout_constraintStart_toEndOf="@+id/newIngredient" />
+
+    <Spinner
+        android:id="@+id/unitsSpinner"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:entries="@array/units_option_spinner"
+        app:layout_constraintBottom_toBottomOf="@+id/qtySpinner"
+        app:layout_constraintStart_toEndOf="@+id/qtySpinner" />
+
+    <TextView
+        android:id="@+id/unitsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/unit_tv_description"
+        android:text="@string/unit_tv_text"
+        app:layout_constraintBottom_toTopOf="@+id/unitsSpinner"
+        app:layout_constraintStart_toStartOf="@+id/unitsSpinner" />
+
+    <Button
+        android:id="@+id/addIngredientBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/add_ingredient_btn_description"
+        android:text="@string/add_ingredient_btn_text"
+        app:layout_constraintStart_toStartOf="@+id/unitsSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/unitsSpinner" />
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="314dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addIngredientBtn">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
