@@ -156,4 +156,15 @@
         app:layout_constraintStart_toStartOf="@+id/saturdayTitle"
         app:layout_constraintTop_toBottomOf="@+id/saturdayTitle" />
 
+    <Button
+        android:id="@+id/newMealBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/new_meal_btn_description"
+        android:onClick="generateNewMeal"
+        android:text="@string/new_meal_btn_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/satSpinner" />
+
 </android.support.constraint.ConstraintLayout>

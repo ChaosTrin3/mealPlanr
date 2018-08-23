@@ -16,6 +16,9 @@
     <string name="friday_title_description">Friday title</string>
     <string name="saturday_title_description">Saturday title</string>
 
+    <string name="new_meal_btn_text">New Meal</string>
+    <string name="new_meal_btn_description">Starts an Activity to generate a new meal.</string>
+
     <string name="meal_default_text">No meal selected yet!</string>
     <string name="meal_default_description">Edit to select a meal for this day.</string>
 
