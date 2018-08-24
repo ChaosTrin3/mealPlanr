@@ -23,6 +23,7 @@ public class NewMealActivity extends Activity {
     public EditText ingredient;
     public Spinner qty;
     public Spinner unit;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
