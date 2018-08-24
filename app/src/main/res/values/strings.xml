@@ -80,4 +80,8 @@
         <item>No meals found!</item>
     </string-array>
 
+    <string-array name="ingredient_list_default_listView">
+        <item>No ingredients.</item>
+    </string-array>
+
 </resources>

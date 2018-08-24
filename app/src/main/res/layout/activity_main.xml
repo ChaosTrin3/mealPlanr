@@ -78,7 +78,7 @@
         android:id="@+id/saturdayTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="64dp"
         android:contentDescription="@string/saturday_title_description"
         android:text="@string/saturday_title_text"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
