@@ -19,6 +19,12 @@
     <string name="new_meal_btn_text">New Meal</string>
     <string name="new_meal_btn_description">Starts an Activity to generate a new meal.</string>
 
+    <string name="create_meal_btn_text">Create</string>
+    <string name="create_meal_btn_description">Returns to main activity with a new meal.</string>
+
+    <string name="destroy_meal_btn_text">Cancel</string>
+    <string name="destroy_meal_btn_description">Returns to main activity without a new meal.</string>
+
     <string name="add_ingredient_btn_text">Add</string>
     <string name="add_ingredient_btn_description">Add the ingredient to the recipe.</string>
 

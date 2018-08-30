@@ -1,6 +1,7 @@
 package com.example.mealplanr;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,6 +12,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class NewMealActivity extends Activity {
 
@@ -55,5 +57,18 @@ public class NewMealActivity extends Activity {
         entry.addView(ingredient_qty, 1);                               //Add the qty to the TableRow
         entry.addView(ingredient_units, 2);                             //Add the unit to the TableRow
         return entry;                                                       //Return the new TableRow
+    }
+    public void returnToMainViewWithMeal(View view){
+        TableLayout tl = findViewById(R.id.ingredientTableLayout);
+        ArrayList<TableRow> mealIngredients = new ArrayList<>();
+        for(int i = 0, j = tl.getChildCount(); i < j; i++) {
+            mealIngredients.add((TableRow) tl.getChildAt(i));
+                }
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    public void returnToMainViewWithoutMeal(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

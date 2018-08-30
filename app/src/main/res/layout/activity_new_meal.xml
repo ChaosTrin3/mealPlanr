@@ -100,4 +100,30 @@
         </TableLayout>
     </ScrollView>
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/destroy_meal_btn_description"
+        android:onClick="returnToMainViewWithoutMeal"
+        android:text="@string/destroy_meal_btn_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredientScrollView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/create_meal_btn_description"
+        android:onClick="returnToMainViewWithMeal"
+        android:text="@string/create_meal_btn_text"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/ingredientScrollView" />
+
 </android.support.constraint.ConstraintLayout>
